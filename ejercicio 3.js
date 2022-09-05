@@ -17,3 +17,9 @@ function ordenarSeries(series, asc){
     }
     return orden;
 }
+
+function quitarSerie(series, titulo){
+    let nuevo = [{}];
+    nuevo = series.filter(ser => ser.nombre != titulo)
+    return nuevo;
+}
