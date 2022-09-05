@@ -23,3 +23,9 @@ function quitarSerie(series, titulo){
     nuevo = series.filter(ser => ser.nombre != titulo)
     return nuevo;
 }
+
+function titulosCompletos(series){
+    const comp = series.map((serie)=> {
+        return {nombre:serie.nombre+'('+serie.ano+')'};
+    })
+}
