@@ -29,3 +29,7 @@ function titulosCompletos(series){
         return {nombre:serie.nombre+'('+serie.ano+')'};
     })
 }
+
+function titulosMayus(series){
+    return series.map(e => e.toLocaleUpperCase());
+}
