@@ -12,3 +12,17 @@ function listar(condiciones){
             console.log(cond.condicion)
     })
 }
+
+function emoji(condiciones){
+    return condiciones.map(cond => {
+        let emoji;
+        if(cond.valor){
+            emoji = "👍"
+        }else{
+             emoji = "👎"
+        }
+        
+        return `${cond.condicion}: ${emoji}`
+        //{condicion:cond.condicion,valor:emoji}
+    })
+}
