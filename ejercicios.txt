@@ -1,0 +1,26 @@
+1) crear un repositorio y empezar a trabajar en los ejercicios subiendo las cambios en él.
+por cada ejercicio realizar un commit con el mensaje correspondiente.
+
+2) crear un metodo que asegure si un partido de futbol esta en condiciones de comenzar.
+
+const condiciones = [
+    {condicion:"debe haber pelota",valor:true},
+    {condicion:"equipo 1 debe tener 11 jugadores",valor:true},
+    {condicion:"equipo 2 debe tener 11 jugadores",valor:false},
+    {condicion:"todos los jugadores deben estar anotados",valor:true},
+    {condicion:"las condiciones climaticas deben ser buenas",valor:false}
+]
+
+en caso de no estar en condiciones, imprimir un informe con las que no se cumplan.
+
+
+3) dado un array de series de tv, ordenar el mismo por año de estreno ascendente. 
+Los objetos deben tener nombre y estreno(año) como atributos.Plus: prepararlo para ordenar de forma descendente.
+
+4) Con el array de series, quiero eliminar un elemento segun su titulo sin modificar el array original.
+
+5) Con el array de series, devolver otro array formado por elementos de tipo "Nombre(estreno)".
+
+6) hacer un metodo que reciba un array de strings y devuelvo otro con todos los elementos pasados a mayuscula.
+
+7) Dado el array de condiciones del ejercicio 2, devolver otro con el siguiente formato: "condicion:(si el valor es true:👍 sino 👎)"
