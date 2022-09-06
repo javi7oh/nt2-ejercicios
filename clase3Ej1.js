@@ -28,3 +28,11 @@ async function competir(integrantes) {
   }
   
   competir(integrantes);
+
+
+  const segundaCarrera = [{nombre: "Adam1"},{nombre: "Usain1"},{nombre: "Roger1"},{nombre: "Geronimo1"},{nombre: "Mariano1"},
+  {nombre: "Adam2"},{nombre: "Usain2"},{nombre: "Roger2"},{nombre: "Geronimo2"},{nombre: "Mariano2"},
+  {nombre: "Adam3"},{nombre: "Usain3"},{nombre: "Roger3"},{nombre: "Geronimo3"},{nombre: "Mariano3"},
+  {nombre: "Adam4"},{nombre: "Usain4"},{nombre: "Roger4"},{nombre: "Geronimo4"},{nombre: "Mariano4"}]
+
+  competir(segundaCarrera);
